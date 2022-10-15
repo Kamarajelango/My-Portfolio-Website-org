@@ -1,0 +1,235 @@
+.homeimg{
+    width: 100%;
+    height: 90%;
+    margin-top: 50px;
+}
+.navhead{
+    border-bottom: 2px solid blue;
+    border-radius: 10px;
+    background: linear-gradient(to left,white);
+}
+.hmhead{
+    color: rgb(231, 108, 63);
+    font-size: 100%;
+    /* padding: 1%; */
+    
+}
+.homepage{
+    padding:8%;
+   
+  
+}
+.homename{
+    color:darkblue;
+    font-size:  300%;
+    /* font-family: 'New Rocker'; */
+    
+}
+.hey{
+    font-size:250%;
+    font-family: 'Battambang', cursive;
+    font-size: 600;   
+    font-weight: bolder;
+    padding: 1%;
+    color: rgb(3, 3, 70);
+   
+}
+#hey{
+    font-size:250%;
+    font-family: 'Battambang', cursive;
+    font-size: 600;   
+    font-weight: bolder;   
+    color: rgb(3, 3, 70);
+   
+}
+#hey1{
+    font-size:180%;
+    font-family: 'Battambang', cursive;
+    font-size: 600;   
+    font-weight: bolder;
+   
+    color: rgb(3, 3, 70);
+   
+}
+.para{
+    /* padding-left: 2%; */
+}
+.hmbtn{
+    background: linear-gradient(to left,  blueviolet,violet);
+    border-radius: 50px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    width:30%;
+    height:20%;
+    border:none;
+
+}
+.hmbtn:hover{
+    background: linear-gradient(to left,rgb(243, 93, 185),coral);
+   
+}
+.abtitle{
+    font-family: 'Battambang', cursive;
+    
+    
+}
+.f1{
+    color:  orangered;
+}
+.f2{
+    color: yellow;
+}
+.f3{
+    color: rgb(20, 148, 199);
+}
+.f5{
+    color: rgb(108, 11, 199);
+}
+.f6{
+    color: green;
+}
+.f7{
+    color: crimson;
+}
+.itext{
+    font-size: 75%;
+}
+.aboutme{
+    color: rgb(231, 108, 63);
+}
+.button{
+   
+    background: linear-gradient(to left,  blueviolet,violet);
+    border-radius: 50px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    width:45%;
+    height: 50px;;
+    border:none;
+    
+
+}
+.button:hover{
+    background: linear-gradient(to left,rgb(243, 93, 185),coral);
+
+}
+ 
+
+.about{
+    justify-content: center;
+    align-items: center;
+    display:flex ;
+    background: linear-gradient(to left,white,violet);
+    min-height: 100vh;
+    width:100%;
+    margin-bottom:-60%;
+    margin-top: -48px;
+    position: fixed;
+    
+}
+.circle{
+    width: 400px;
+    height: 400px;
+    background: white;
+    border-radius: 50%;
+    position: relative;
+    box-shadow:0px 5px 12px rgba(0,0,0,.7);
+    margin-bottom: 3%;
+    margin-top: 8%;
+    transition: 1s;
+} 
+.circle img{
+    position: absolute;
+    height: 350px;
+    top: 4%;
+    left: 14%;
+    border-radius: 50%;  
+    filter: drop-shadow(0px 30px 15px rgba(0,0,0,.4));  
+    transition: 1s; 
+    
+}
+.circle:hover{
+width: 800px;
+height: 450px; 
+border-radius: 50px;
+transition: 1s;
+margin-top: 18px;
+}
+.circle:hover img{
+  position: absolute;
+  top: 0%;
+  left: 0%;
+  transition: 1s;
+}
+.circle:hover .content{
+  position: absolute;
+  top: 15%;
+  right: 1%;
+  width: 50%;
+  opacity: 1;
+  transition: 1s;
+}
+.circle .content{
+  opacity: 0;
+}
+.skillhead{
+    color: rgb(231, 108, 63);
+}
+.skill{
+    color: rgb(3, 3, 70);
+    font-family: 'Battambang', cursive;
+}
+.progressbar{
+    background:linear-gradient(to left, rgb(153, 86, 216),violet);
+}
+.paraletter{
+    font-size:small;
+}
+.sklogo{
+    padding-right: 10px;
+}
+.probtn{
+    font-size: 10%;
+    background:linear-gradient(to left, rgb(153, 86, 216),violet);
+}
+.navi{
+    font-size:14Px;
+}
+/* .bt {
+    border: none;
+    outline: none;
+    padding: 10px 16px;
+    background-color: #05131b;
+    cursor: pointer;
+    font-size: 18px;
+  }
+   */
+  /* Style the active class, and buttons on mouse-over */
+  .active {
+    /* background-color: rgb(217, 200, 219); */
+    /* color: rgb(33, 178, 204); */
+    text-decoration: underline;
+    font-weight:bold ;
+    
+  }
+  .bar:hover{
+    border-bottom: 3px solid blueviolet;
+    border-bottom-left-radius: 8px;
+    border-bottom-right-radius: 8px;
+    padding-bottom: 0%;
+    font-weight:bold ;
+    
+  
+   
+    
+  }
+  .contacttext{
+    font-size: 20px;
+    
+  }
+  .formbt{
+    background: linear-gradient(to left,  blueviolet,violet);
+  }
+  .formbt:hover{
+    background: linear-gradient(to left,rgb(243, 93, 185),coral);
+    outline: none;
+    border: none;
+  }
