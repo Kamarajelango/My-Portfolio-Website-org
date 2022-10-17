@@ -4,7 +4,7 @@ import Navigation from './Compoents/Navigation';
 import Routing from './Compoents/Routing';
 import Theme from './Cantainers/Theme';
 import {ThemeProvider} from './Compoents/Context'
-import Footer from './Compoents/Footer';
+// import Footer from './Compoents/Footer';
 
 
 
@@ -17,9 +17,8 @@ function App() {
         <Navigation />
         <Routing />
       </BrowserRouter>
-      <Footer/>
-      <Theme/>
-      
+      {/* <Footer/> */}
+      <Theme/>      
     </ThemeProvider>
 
     
