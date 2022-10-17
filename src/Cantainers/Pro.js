@@ -1,7 +1,9 @@
-import React from 'react'
+import React,{useContext} from 'react'
 import Projects from './Projects'
+import { ThemeContext } from '../Compoents/Context'
 
 function Pro() {
+    const { theme } = useContext(ThemeContext)
     let data = [
         {
             name: 'Applicaton 1',
@@ -22,6 +24,7 @@ function Pro() {
         }
     ]
     return <>
+    <div className={`bg-${theme} text-${theme === 'dark' ? 'light' : ' dark'}`}>
         <div className='container '>
             <h6 className='skillhead mt-4'>MY WORK</h6>
             <h3 id='hey1' className='mt-3'>CHECK OUT MY REACT <br/>PROJECT</h3>
@@ -32,6 +35,7 @@ function Pro() {
                     })
                 }
             </div>
+        </div>
         </div>
     </>
 }

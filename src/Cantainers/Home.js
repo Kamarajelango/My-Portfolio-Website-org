@@ -1,7 +1,10 @@
-import React from 'react'
+import React,{useContext} from 'react'
+import { ThemeContext } from '../Compoents/Context'
 
 function Home() {
+  const { theme } = useContext(ThemeContext)
   return <>
+   <div className={`bg-${theme} text-${theme === 'dark' ? 'light' : ' dark'} home`} >
   <div className='container'>
     <div className='row '>
       <div className='col homepage'>
@@ -18,6 +21,7 @@ function Home() {
       <div className='col'>
         <img className='homeimg ' src='./imgs/bgd.png' alt='' />
       </div>
+    </div>
     </div>
     </div>
   </>
