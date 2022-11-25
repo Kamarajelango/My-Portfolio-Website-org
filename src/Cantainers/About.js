@@ -1,12 +1,14 @@
 import React, { useContext } from 'react'
 import { ThemeContext } from '../Compoents/Context'
+import {Element} from 'react-scroll'
 
 function About() {
   const { theme } = useContext(ThemeContext)
 
   return <>
-    <div className={`bg-${theme} text-${theme === 'dark' ? 'light' : ' dark'}`} >
-
+  <Element id='aboutroute'>
+  <div className={`bg-${theme} text-${theme === 'dark' ? 'light' : ' dark'}`} >
+       
       <section className='about ' >
         <div className={`circle bg-${theme} text-${theme === 'dark' ? 'light' : ' dark'}`}>
           <img src="./imgs/mypic.png" alt='' />
@@ -35,6 +37,8 @@ function About() {
 
       <br />
       <br /></div>
+  </Element>
+   
   </>
 }
 

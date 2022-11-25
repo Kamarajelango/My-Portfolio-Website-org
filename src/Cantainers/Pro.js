@@ -1,6 +1,7 @@
 import React,{useContext} from 'react'
 import Projects from './Projects'
 import { ThemeContext } from '../Compoents/Context'
+import {Element} from 'react-scroll'
 
 function Pro() {
     const { theme } = useContext(ThemeContext)
@@ -24,6 +25,7 @@ function Pro() {
         }
     ]
     return <>
+    <Element id='projectroute'>
     <div className={`bg-${theme} text-${theme === 'dark' ? 'light' : ' dark'}`}>
         <div className='container '>
             <h6 className='skillhead mt-4'>MY WORK</h6>
@@ -37,6 +39,8 @@ function Pro() {
             </div>
         </div>
         </div>
+    </Element>
+    
     </>
 }
 

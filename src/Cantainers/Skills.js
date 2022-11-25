@@ -1,10 +1,12 @@
 import React, { useContext } from 'react'
+import { Element } from 'react-scroll'
 import { ThemeContext } from '../Compoents/Context'
 
 function Skills() {
   const { theme } = useContext(ThemeContext)
   return <>
-    <div className={`bg-${theme} text-${theme === 'dark' ? 'light' : ' dark'} skills`}>
+  <Element id='skillsroute'>
+  <div className={`bg-${theme} text-${theme === 'dark' ? 'light' : ' dark'} skills`} >
       <div className='container'>
         <h6 className='pt-4 skillhead'>SKILLS</h6>
         <h2 id='hey'>My Skills <br /> Progress So Far</h2>
@@ -22,6 +24,8 @@ function Skills() {
             <div className='p-2'><p className='paraletter'><i className="fa-brands fa-node-js sklogo  f6"></i>NODEJS - (65%)</p><div className=" progress progress-bar progressbar" role="progressbar" aria-label="Basic example" style={{ width: "65%" }} aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div></div>
           </div>
         </div></div></div>
+  </Element>
+    
   </>
 }
 

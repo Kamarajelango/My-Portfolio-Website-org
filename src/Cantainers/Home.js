@@ -1,10 +1,12 @@
 import React,{useContext} from 'react'
 import { ThemeContext } from '../Compoents/Context'
-
+import {Element} from 'react-scroll'
+// {`bg-${theme} text-${theme === 'dark' ? 'light' : ' dark'} home`} 
 function Home() {
   const { theme } = useContext(ThemeContext)
   return <>
-   <div className={`bg-${theme} text-${theme === 'dark' ? 'light' : ' dark'} home`} >
+  <Element id='homeroute'>
+  <div className={`bg-${theme} text-${theme === 'dark' ? 'light' : ' dark'} home`} >
   <div className='container'>
     <div className='row '>
       <div className='col homepage'>
@@ -24,6 +26,8 @@ function Home() {
     </div>
     </div>
     </div>
+  </Element>
+  
   </>
 }
 

@@ -5,7 +5,7 @@ function Projects(props) {
   const { theme } = useContext(ThemeContext)
   return <>
 
-      <div className={`card mx-4 bg-${theme} text-${theme === 'dark' ? 'light' : ' dark'}`} style={{width:'18rem'}}>
+      <div className={`card mx-4 bg-${theme} text-${theme === 'dark' ? 'light' : ' dark'}`} style={{width:'18rem'}} >
   <img src={props.data.img} className="card-img-top" alt="..."/>
   <div className="card-body">
     <h5 className="card-title">{props.data.name}</h5>
