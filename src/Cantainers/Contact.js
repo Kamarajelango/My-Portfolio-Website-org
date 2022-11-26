@@ -1,8 +1,6 @@
 import React, { useContext } from 'react'
 import Form from 'react-bootstrap/Form'
 import { Element } from 'react-scroll'
-// import Button from 'react-bootstrap/Button'
-// {`bg-${theme} text-${theme === 'dark' ? 'light' : ' dark'} contact`} 
 import { ThemeContext } from '../Compoents/Context'
 
 function Contact() {
@@ -11,8 +9,8 @@ function Contact() {
   <Element id='contactroute'>
   <div className={`bg-${theme} text-${theme === 'dark' ? 'light' : ' dark'} contact`}>
 
-<div className=' mt-2 container'>
-  <div className='row mt-3' style={{ height: "100%" }}>
+<div className=' container'>
+  <div className='row ' style={{ height: "100%" }}>
     <div className='col'>
       <h3 className=''>Contact</h3>
       <Form className='pt-3' action="https://formsubmit.co/rajelangovan18@gmail.com" method="POST">

@@ -9,15 +9,11 @@ import About from '../Cantainers/About'
 import Skills from '../Cantainers/Skills'
 import Pro from '../Cantainers/Pro'
 import Contact from '../Cantainers/Contact'
-
-
-
+import Footer from './Footer';
 
 function Navigation() {
-  
-  const {theme,changeTheme}=useContext(ThemeContext)
-  const [show, setShow] = useState(false);
- 
+    const {theme,changeTheme}=useContext(ThemeContext)
+  const [show, setShow] = useState(false); 
   return <>
   <div>
        <Navbar collapseOnSelect  className={`sticky-top shadow p-3 mb-4  rounded navbar-${theme} bg-${theme}`} expand="lg">
@@ -28,8 +24,7 @@ function Navigation() {
           <Nav  className="me-auto">
             
           </Nav>
-          <Nav >
-         
+          <Nav >        
                      
           <Link to='homeroute' smooth={true}  className='text-decoration-none navi '> <Nav.Link className='bar nav-item text-center' >HOME </Nav.Link> </Link>
           <Link to='aboutroute' smooth={true}  className='text-decoration-none navi'> <Nav.Link className='bar nav-item text-center' > ABOUT</Nav.Link>  </Link>
@@ -54,15 +49,14 @@ function Navigation() {
           </Nav>
         </Navbar.Collapse>
       </Container>
-    </Navbar>
-
-     
+    </Navbar>    
 
     <Home/>
     <About/> 
     <Skills/>
     <Pro/>
     <Contact/>
+    <Footer/>
 
     </div>
   </>

@@ -195,8 +195,12 @@ margin-top: 18px;
     padding-right: 10px;
 }
 .probtn{
-    font-size: 10%;
+    border-radius: 50px !important;
+    font-size: 14px !important;
     background:linear-gradient(to left, rgb(153, 86, 216),violet);
+}
+.probtn:hover{
+    background: linear-gradient(to left,rgb(243, 93, 185),coral);
 }
 .navi{
     font-size:14Px;

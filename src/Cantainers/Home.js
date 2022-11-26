@@ -1,7 +1,7 @@
 import React,{useContext} from 'react'
 import { ThemeContext } from '../Compoents/Context'
 import {Element} from 'react-scroll'
-// {`bg-${theme} text-${theme === 'dark' ? 'light' : ' dark'} home`} 
+
 function Home() {
   const { theme } = useContext(ThemeContext)
   return <>
