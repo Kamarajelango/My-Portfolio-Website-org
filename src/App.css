@@ -61,11 +61,11 @@
 }
 .hmbtn{
     background: linear-gradient(to left,  blueviolet,violet);
-    border-radius: 50px;
+    
     font-family: Georgia, 'Times New Roman', Times, serif;
     width:30%;
     height:20%;
-    border:none;
+    
 
 }
 .hmbtn:hover{
@@ -174,11 +174,13 @@ margin-top: 18px;
   opacity: 0;
 }
 .skills{
-    height: 100vh;
+    height: 80vh;
     width: 100%;
     position: relative;
+    
 }
 .skillhead{
+   
     color: rgb(231, 108, 63);
 }
 .skill{
@@ -205,6 +207,9 @@ margin-top: 18px;
 .navi{
     font-size:14Px;
 }
+.navi:active{
+    font-weight: bolder;
+}
 /* .bt {
     border: none;
     outline: none;
@@ -215,11 +220,11 @@ margin-top: 18px;
   }
    */
   /* Style the active class, and buttons on mouse-over */
-  .active {
+ .active {
     /* background-color: rgb(217, 200, 219); */
     /* color: rgb(33, 178, 204); */
     
-    font-weight:bold ;
+    font-weight:bold !important;
     
   }
   .bar:hover{
@@ -234,7 +239,7 @@ margin-top: 18px;
     
   }
   .contact{
-    height: 100vh;
+    height: 80vh;
     width: 100%;
     /* margin-top: -24px; */
     position:relative;

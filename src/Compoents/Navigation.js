@@ -26,7 +26,7 @@ function Navigation() {
           </Nav>
           <Nav >        
                      
-          <Link to='homeroute' smooth={true}  className='text-decoration-none navi '> <Nav.Link className='bar nav-item text-center' >HOME </Nav.Link> </Link>
+          <Link to='homeroute' smooth={true}  className='text-decoration-none navi '> <Nav.Link className='bar nav-item text-center ' >HOME </Nav.Link> </Link>
           <Link to='aboutroute' smooth={true}  className='text-decoration-none navi'> <Nav.Link className='bar nav-item text-center' > ABOUT</Nav.Link>  </Link>
          <Link to='skillsroute' smooth={true}  className='text-decoration-none navi'> <Nav.Link className='bar nav-item text-center'  >SKILLS</Nav.Link> </Link> 
          <Link to='projectroute' smooth={true}  className='text-decoration-none navi'><Nav.Link className='bar nav-item text-center'>PROJECTS</Nav.Link> </Link>  

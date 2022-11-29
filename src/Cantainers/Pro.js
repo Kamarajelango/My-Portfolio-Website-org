@@ -7,22 +7,12 @@ function Pro() {
     const { theme } = useContext(ThemeContext)
     let data = [
         {
-            name: 'Applicaton 1',
+            name: 'Near Worker',
             description: `Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
             Lorem Ipsum has been the industry's standard dummy text ever since the 1500s. `,
             img:"https://thumbs.dreamstime.com/z/portfolio-management-businessman-hologram-concept-futuristic-portfolio-management-businessman-hologram-concept-177205308.jpg"
         },
-        {
-            name: 'Applicaton 2',
-            description: `Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
-            Lorem Ipsum has been the industry's standard dummy text ever since the 1500s. `,
-            img:"https://thumbs.dreamstime.com/z/portfolio-management-businessman-hologram-concept-futuristic-portfolio-management-businessman-hologram-concept-177205308.jpg"
-        },{
-            name: 'Applicaton 3',
-            description: `Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
-            Lorem Ipsum has been the industry's standard dummy text ever since the 1500s. `,
-            img:"https://thumbs.dreamstime.com/z/portfolio-management-businessman-hologram-concept-futuristic-portfolio-management-businessman-hologram-concept-177205308.jpg"
-        }
+       
     ]
     return <>
     <Element id='projectroute'>

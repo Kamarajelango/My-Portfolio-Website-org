@@ -14,11 +14,13 @@ function About() {
           <img src="./imgs/mypic.png" alt='' />
           <div className="content">
             <h4 className='aboutme '>ABOUT ME</h4>
-
+           
             <p className=''>I'm  entry level full stack developer with six months of experience in designing,
               developing and implementing the application with solution using wide range of technology and programming languages.
               Seeking for best development experience and hands-on technical projects in a challenging
               role as a full stack developer.</p>
+           
+           
             <div className='row pb-5'>
               <div className='col text-center itext'> <i className="fa-brands fa-html5 fs-3 f1"></i><br />HTML</div>
               <div className='col text-center itext'><i className="fa-brands fa-square-js fs-3 f2"></i><br />Javascript </div>
