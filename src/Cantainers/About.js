@@ -1,13 +1,14 @@
 import React, { useContext } from 'react'
 import { ThemeContext } from '../Compoents/Context'
-import {Element} from 'react-scroll'
+import { Element } from 'react-scroll'
 
 function About() {
   const { theme } = useContext(ThemeContext)
 
   return <>
-  <Element id='aboutroute'>
-  <div className={`bg-${theme} text-${theme === 'dark' ? 'light' : ' dark'}`} >
+    <Element id='aboutroute'>
+     
+      <div className={`bg-${theme} text-${theme === 'dark' ? 'light' : ' dark'}`} >
        
       <section className='about ' >
         <div className={`circle bg-${theme} text-${theme === 'dark' ? 'light' : ' dark'}`}>
@@ -30,7 +31,7 @@ function About() {
               <div className='col text-center itext'> <i className="fa-brands fa-node-js  fs-3 f6"></i><br />Nodejs </div>
             </div>
             <div className='text-center '>
-              <a href='https://drive.google.com/file/d/1gnRkZ4naaptEw3cNamlIFqaJuO7HDsNq/view?usp=share_link'>
+              <a href='https://drive.google.com/file/d/1gnRkZ4naaptEw3cNamlIFqaJuO7HDsNq/view?usp=share_link' download="RESUME.pdf" target="_blank"  rel="noreferrer"     >
               <button className='button'>DOWNLOAD CV <i className="fa-solid fa-download"></i></button>
               </a>
              
@@ -42,8 +43,8 @@ function About() {
 
       <br />
       <br /></div>
-  </Element>
-   
+    </Element>
+
   </>
 }
 

@@ -2,6 +2,7 @@ import React,{useContext} from 'react'
 import { ThemeContext } from '../Compoents/Context'
 import {Element} from 'react-scroll'
 
+
 function Home() {
   const { theme } = useContext(ThemeContext)
   return <>
@@ -15,7 +16,7 @@ function Home() {
         <h3 className='homename'>Kamaraj</h3>
         <p className='para pb-3 pt-3'>Am TamilNadu based fullstack developer passionate <br/>
           and love to build web applications 💖.</p>
-          <form action="https://accounts.google.com/">
+          <form action="mailto:rajelangovan18@gmail.com">
           <button className='hmbtn p-3 btn rounded-5' >HIRE ME <span className='px-2'> <img  src='./imgs/send.png'  alt='' height={11}/></span></button>
         </form>
        

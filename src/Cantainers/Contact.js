@@ -43,9 +43,9 @@ function Contact() {
         Simply fill the from and send me an email.
       </p>
       <div className='row pt-5 mt-4 px-3'>
-        <div className='col col-sm-4 col-md-4 col-lg-4'><p><i className="fa-solid fa-phone text-success"></i><br />Phone: <br /> +919751723184</p></div>
-        <div className='col col-sm-4 col-md-4 col-lg-4'><p><i className="fa-solid fa-location-dot text-primary"></i> <br /> Location: <br /> Ariyalur,Tamil Nadu</p></div>
-        <div className='col col-sm-4 col-md-4 col-lg-4'><p><i className="fa-solid fa-envelope text-danger"></i><br />Email: <br /> rajelagovan18@gmail.com</p></div>
+        <div className='col'><p><i className="fa-solid fa-phone text-success"></i><br />Phone: <br /> +919751723184</p></div>
+        <div className='col '><p><i className="fa-solid fa-location-dot text-primary"></i> <br /> Location: <br /> Ariyalur,Tamil Nadu</p></div>
+        <div className='col '><p><i className="fa-solid fa-envelope text-danger"></i><br />Email: <br /> rajelagovan18@gmail.com</p></div>
       </div>
     </div>
   </div>
