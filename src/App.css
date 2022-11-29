@@ -278,6 +278,11 @@
 .circle .content {
     opacity: 0;
 }
+@media only screen and (max-width: 576px) {
+    .skills {
+      margin-bottom: 10%;
+    }
+  }
 
 .skills {
     height: 80vh;
@@ -286,15 +291,16 @@
 
 }
 
+
 .skillhead {
 
     color: rgb(231, 108, 63);
 }
 
-.skill {
-    color: rgb(3, 3, 70);
-    font-family: 'Battambang', cursive;
-}
+/* .skills { */
+    
+    /* font-family: 'Battambang', cursive; */
+/* } */
 
 .progressbar {
     background: linear-gradient(to left, rgb(153, 86, 216), violet);
@@ -362,9 +368,18 @@
     /* margin-top: -24px; */
     position: relative;
     /* margin-bottom: -700px; */
-
-
 }
+@media only screen and (max-width: 576px) {
+    .contact {
+        margin-bottom: 45%;
+    }
+  } 
+  @media only screen and (min-width: 576px) {
+    .contact {
+        margin-bottom: 45%;
+    }
+  } 
+
 
 .contacttext {
     font-size: 20px;
