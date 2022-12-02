@@ -16,7 +16,7 @@ function Pro() {
     ]
     return <>
     <Element id='projectroute'>
-    <div className={`bg-${theme} text-${theme === 'dark' ? 'light' : ' dark'}`}>
+    <div className={`bg-${theme} text-${theme === 'dark' ? 'light' : ' dark'} pt-3`}>
         <div className='container '>
             <h6 className='skillhead '>MY WORK</h6>
             <h3 id='hey1' className='mt-3'>CHECK OUT MY REACT <br/>PROJECT</h3>

@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Alexandria:wght@600&display=swap');
+/*** Home ***/
 .home {
     height: 100vh;
     width: 100%;
@@ -28,7 +30,7 @@
 }
 
 .homename {
-    color: darkblue;
+    color: rgb(214, 18, 35);
     font-size: 300%;
     /* font-family: 'New Rocker'; */
 
@@ -63,101 +65,27 @@
 
 }
 
-/* .para{ */
-/* padding-left: 2%; */
-/* } */
-@media only screen and (max-width: 425px) {
-    .hmbtn {
-        width: 160px !important;
-        
-    }
+.hmbtn:hover {
+    background: linear-gradient(to left, rgb(243, 93, 185), coral) !important;
+
 }
 
-@media only screen and (max-width: 420px) {
-    .hmbtn {
-        margin-right: 0 !important;
-    }
-}
 
-@media only screen and (max-width: 425px) {
-    .hmbtn {
-        margin-left: 0 !important;
-    }
-}
-
-@media only screen and (max-width: 330px) {
-    .hmbtn {
-        height: 45px;
-        /* margin: 10px !important; */
-        width: 150px;
-    }
-}
-
-@media only screen and (max-width: 425px) {
-    .hmbtn {
-        width: 160px !important;
-    }
-}
-
-@media only screen and (max-width: 767px) {
-    .hmbtn {
-        height: 45px;
-        width: 120px;
-    }
-}
-
-@media only screen and (max-width: 768px) {
-    .hmbtn {
-        height: 50px !important;
-        width: 150px !important;
-    }
-}
-
-@media only screen and (max-width: 1070px) {
-    .hmbtn {
-        height: 60px !important;
-        margin-bottom: 10px;
-        width: 180px !important;
-    }
-}
-
-.hmbtn {
-    background: transparent;
-    border: none;
-    border: 1px solid var(--color-title);
-    border-radius: 47px;
+.hmbtn {       
+        border-radius: 47px;
+    background: linear-gradient(to left, blueviolet, violet);
+    font-family: Georgia, 'Times New Roman', Times, serif;    
+    
+    border: none; 
     font-size: 13px;
     height: 60px;
     letter-spacing: 3px;
-    outline: none;
-    text-transform: uppercase;
     width: 180px;
 }
 
-.hmbtn {
-    color: var(--color-white);
-    font-weight: 300;
-}
 
-.hmbtn {
-    background: var(--color-button);
-    border: none;
-    color: var(--color-dark);
-    font-weight: 500;
-    margin-right: 30px;
-    transition: all .5s ease;
-    background: linear-gradient(to left, blueviolet, violet);
 
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    width: 30%;
-    height: 20%;
-    outline: none !important
-}
-
-.hmbtn:hover {
-    background: linear-gradient(to left, rgb(243, 93, 185), coral);
-
-}
+/*** About ***/
 
 .abtitle {
     font-family: 'Battambang', cursive;
@@ -236,7 +164,7 @@
     position: relative;
     box-shadow: 0px 5px 12px rgba(0, 0, 0, .7);
     margin-bottom: 3%;
-    margin-top: 8%;
+    margin-top: 9%;
     transition: 1s;
 }
 
@@ -256,7 +184,7 @@
     height: 450px;
     border-radius: 50px;
     transition: 1s;
-    margin-top: 18px;
+   /* margin-top: 5%; */
 }
 
 .circle:hover img {
@@ -278,18 +206,78 @@
 .circle .content {
     opacity: 0;
 }
-@media only screen and (max-width: 576px) {
-    .skills {
-      margin-bottom: 20%;
+@media only screen and (max-width:768px) {
+    .circle {
+        width: 400px;
+        height: 400px;
+        background: white;
+        border-radius: 50%;
+        position: relative;
+        box-shadow: 0px 5px 12px rgba(0, 0, 0, .7);
+        margin-bottom: 3%;
+        margin-top: 59%;
+        transition: 1s;
+    }
+}
+@media screen and (max-width:576px){
+    .circle {
+        width: 420px;
+        height: 400px;
+        background: white;
+        
+        border-radius: 50%;
+        position: relative;
+        box-shadow: 0px 5px 12px rgba(0, 0, 0, .7);
+        margin-bottom: 5%;
+        margin-top: 54%;
+        transition: 1s;
+    }
+    .circle:hover img {
+        position: absolute;
+        top: 0%;
+        left: 8%;
+        transition: 1s;
+    }
+    .circle:hover {
+        width: 500px;
+        height: 900px;
+        border-radius: 50px;
+        transition: 1s;
+        margin-bottom: 0%;
+    }
+    .circle:hover .content {
+        position: absolute;
+        top:40%;
+        padding: 15px;
+        right: 1%;
+        width: 100%;
+        opacity: 1;
+        transition: 1s;
+    }
+    
+    .circle .content {
+        opacity: 0;
+    }
+    .circle img {
+        position: absolute;
+        height: 350px;
+        top: 4%;
+        left: 10%;
+        margin-right: -5% !important;
+        border-radius: 50%;
+        filter: drop-shadow(0px 30px 15px rgba(0, 0, 0, .4));
+        transition: 1s;
+    
+    }
+}
+/*** Skills***/
+@media  screen and (max-width: 576px) {
+    .skills .container {
+      margin-bottom: 20% !important;
     }
   }
 
-.skills {
-    height: 80vh;
-    width: 100%;
-    position: relative;
 
-}
 
 
 .skillhead {
@@ -297,21 +285,27 @@
     color: rgb(231, 108, 63);
 }
 
-/* .skills { */
+
+.skill_text {
+    font-family: 'Alexandria', sans-serif;
+    font-size: 15px;
+    font-weight: bolder;
+    cursor: pointer;
     
-    /* font-family: 'Battambang', cursive; */
-/* } */
-
-.progressbar {
-    background: linear-gradient(to left, rgb(153, 86, 216), violet);
 }
 
-.paraletter {
-    font-size: small;
+
+.skill_img {
+    width: 70px;
+    height: 70px;
+    padding-bottom: 5px;
+    transition: 0.5s;
+    cursor: pointer;
+    
 }
 
-.sklogo {
-    padding-right: 10px;
+.skill_img:hover{
+    transition: transform 1.5s;
 }
 
 .probtn {
@@ -328,8 +322,8 @@
     font-size: 14Px;
 }
 
-.navi:active {
-    font-weight: bolder;
+.nav-item:active {
+    font-weight: bolder !important;
 }
 
 /* .bt {
@@ -343,8 +337,7 @@
    */
 /* Style the active class, and buttons on mouse-over */
 .active {
-    /* background-color: rgb(217, 200, 219); */
-    /* color: rgb(33, 178, 204); */
+   
 
     font-weight: bold !important;
 
@@ -363,13 +356,14 @@
 }
 
 .contact {
-    height: 80vh;
-    width: 100%;
+    /* height: 80vh;
+    width: 100%; */
     /* margin-top: -24px; */
-    position: relative;
+    /* position: reative; */
     /* margin-bottom: -700px; */
 }
-@media only screen and (max-width: 576px) {
+
+/* @media only screen and (max-width: 576px) {
     .contact {
         margin-bottom: 65%;
     }
@@ -378,7 +372,7 @@
     .contact {
         margin-bottom: 45%;
     }
-  } 
+  }  */
 
 
 .contacttext {
@@ -421,4 +415,24 @@
       padding-right: 10px;
     }
   } */
- 
+ /* Footer */
+/* .footer {
+    max-width: 100%;
+    background-color: rgb(150, 147, 142);
+    color: #fff;
+    text-align: center;
+    font-weight: var(--font-semi);
+    padding: 1rem 0;
+  }
+  
+  .footer-title {
+    font-size: 1.5rem;
+    margin-bottom: var(--mb-2);
+  } */
+
+  @media  screen and (max-width:576px){
+    .footer{
+        margin-top: 540px;
+        
+    }
+  }

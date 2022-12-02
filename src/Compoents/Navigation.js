@@ -16,24 +16,21 @@ function Navigation() {
   const [show, setShow] = useState(false); 
   return <>
   <div>
-       <Navbar collapseOnSelect  className={`sticky-top shadow p-3 mb-4  rounded navbar-${theme} bg-${theme}`} expand="lg">
+
+
+  <Navbar bg="light" expand="lg" className={`sticky-top shadow p-3 mb-4  rounded navbar-${theme} bg-${theme}`}>
       <Container>
-        <Navbar.Brand className="h1 fw-bold" href="#home">KE</Navbar.Brand>
-        <Navbar.Toggle aria-controls="responsive-navbar-nav" />
-        <Navbar.Collapse id="responsive-navbar-nav">
-          <Nav  className="me-auto">
-            
-          </Nav>
-          <Nav >        
-                     
-          <Link to='homeroute' smooth={true}  className='text-decoration-none navi '> <Nav.Link className='bar nav-item text-center ' >HOME </Nav.Link> </Link>
-          <Link to='aboutroute' smooth={true}  className='text-decoration-none navi'> <Nav.Link className='bar nav-item text-center' > ABOUT</Nav.Link>  </Link>
-         <Link to='skillsroute' smooth={true}  className='text-decoration-none navi'> <Nav.Link className='bar nav-item text-center'  >SKILLS</Nav.Link> </Link> 
-         <Link to='projectroute' smooth={true}  className='text-decoration-none navi'><Nav.Link className='bar nav-item text-center'>PROJECTS</Nav.Link> </Link>  
-         <Link to='contactroute' smooth={true}  className='text-decoration-none navi'> <Nav.Link className='bar nav-item text-center' >CONTACT</Nav.Link>   </Link>
-         
-          
-            <li  className="nav-item text-center" onClick={() => setShow(!show)}>
+        <Navbar.Brand className="h1 fw-bold" href="#home">𝕂𝔼</Navbar.Brand>
+        <Navbar.Toggle aria-controls="basic-navbar-nav" />
+        <Navbar.Collapse id="basic-navbar-nav">
+          <Nav className="ms-auto">
+        <Link to='homeroute' className='text-decoration-none navi '><Nav.Link href="#home" className='bar   text-center '>HOME</Nav.Link></Link>    
+        <Link to='aboutroute' className='text-decoration-none navi '><Nav.Link href="#about" className='bar   text-center '>ABOUT</Nav.Link></Link>  
+        <Link to='skillsroute' className='text-decoration-none navi '><Nav.Link href="#skills" className='bar   text-center '>SKILLS</Nav.Link></Link> 
+        <Link to='projectroute' className='text-decoration-none navi '><Nav.Link href="#Project" className='bar   text-center '>PROJECTS</Nav.Link></Link> 
+        <Link to='contactroute' className='text-decoration-none navi '><Nav.Link href="#contact" className='bar   text-center '>CONTACT</Nav.Link></Link> 
+
+        <li  className="nav-item text-center" onClick={() => setShow(!show)}>
             {show ? (
                       <button className="btn border-0" onClick={changeTheme}>
                       <i className="fa-solid fa-sun text-warning"></i>
@@ -44,12 +41,11 @@ function Navigation() {
                       </button>
                     )}
             </li>
-          
-          
           </Nav>
+
         </Navbar.Collapse>
       </Container>
-    </Navbar>    
+    </Navbar>        
 
     <Home/>
     <About/> 
