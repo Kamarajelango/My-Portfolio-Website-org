@@ -31,7 +31,7 @@ function About() {
               <div className='col text-center itext'> <i className="fa-brands fa-node-js  fs-3 f6"></i><br />Nodejs </div>
             </div>
             <div className='text-center '>
-              <a href='https://drive.google.com/file/d/1gnRkZ4naaptEw3cNamlIFqaJuO7HDsNq/view?usp=share_link' download="RESUME.pdf" target="_blank"  rel="noreferrer"     >
+              <a href='https://drive.google.com/file/d/104zm0YIsx9RAm80X1SUOLZFYIxTpLyoJ/view?usp=share_link' download="RESUME.pdf" target="_blank"  rel="noreferrer"     >
               <button className='button'>DOWNLOAD CV <i className="fa-solid fa-download"></i></button>
               </a>
              
