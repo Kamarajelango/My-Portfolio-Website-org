@@ -16,10 +16,10 @@ function About() {
           <div className="content">
             <h4 className='aboutme '>ABOUT ME</h4>
            
-            <p className=''>I'm  entry level full stack developer with six months of experience in designing,
+            <p className=''>I'm  entry level front end developer with six months of experience in designing,
               developing and implementing the application with solution using wide range of technology and programming languages.
               Seeking for best development experience and hands-on technical projects in a challenging
-              role as a full stack developer.</p>
+              role as a front end developer.</p>
            
            
             <div className='row pb-5'>
@@ -31,7 +31,7 @@ function About() {
               <div className='col text-center itext'> <i className="fa-brands fa-node-js  fs-3 f6"></i><br />Nodejs </div>
             </div>
             <div className='text-center '>
-              <a href='https://drive.google.com/file/d/104zm0YIsx9RAm80X1SUOLZFYIxTpLyoJ/view?usp=share_link' download="RESUME.pdf" target="_blank"  rel="noreferrer"     >
+              <a href='https://drive.google.com/file/d/1_OvllkYS7vEB7Zk5mIRjeXtjwUtH5YKb/view?usp=share_link' download="RESUME.pdf" target="_blank"  rel="noreferrer"     >
               <button className='button'>DOWNLOAD CV <i className="fa-solid fa-download"></i></button>
               </a>
              

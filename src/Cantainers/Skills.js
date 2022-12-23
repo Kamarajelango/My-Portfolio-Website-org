@@ -54,7 +54,7 @@ function Skills() {
               <h5 className='skill_text'>NETLIFY</h5>
             </div>
             <div className='col-12 col-lg-2 col-sm-4 text-center p-2' >
-              <img className='' style={{height:'65px',width:"65px",paddingBottom:'5px'}} src='./imgs/heroku.ico' alt='heroku' /><h5 className='skill_text'>HEROKU</h5>
+              <img className='' style={{height:'65px',width:"65px",paddingBottom:'5px'}} src='./imgs/materialui.png' alt='heroku' /><h5 className='skill_text'>MATERIALUI</h5>
 
             </div>
           </div>

@@ -67,15 +67,16 @@
 
 .hmbtn:hover {
     background: linear-gradient(to left, rgb(243, 93, 185), coral) !important;
+    cursor:pointer !important;
 
 }
 
 
 .hmbtn {       
         border-radius: 47px;
-    background: linear-gradient(to left, blueviolet, violet);
+    background: linear-gradient(to left, blueviolet, violet) !important;
     font-family: Georgia, 'Times New Roman', Times, serif;    
-    
+    cursor:pointer !important;
     border: none; 
     font-size: 13px;
     height: 60px;
