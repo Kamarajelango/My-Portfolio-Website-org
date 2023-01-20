@@ -436,3 +436,29 @@
         
     }
   }
+
+  .home-icon {
+    display: flex;
+    flex-direction: column;
+    margin-left: 2rem;
+   
+  }
+/*   
+  .home-icon a {
+    width: max-content;
+    margin-bottom: var(--mb-2);
+    font-size: 1.5rem;
+    color: var(--second-color);
+  }
+  
+  .home-icon a img {
+    max-width: 2.1rem;
+    height: auto
+  }
+  
+  .home-icon a img:hover {
+    -webkit-transform: scale(1.1);
+    -ms-transform: scale(1.1);
+    transform: scale(1.1);
+    transition: 1s ease;
+  } */

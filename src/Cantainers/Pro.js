@@ -8,9 +8,15 @@ function Pro() {
     let data = [
         {
             name: 'Near Worker',
-            description: `Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
-            Lorem Ipsum has been the industry's standard dummy text ever since the 1500s. `,
-            img:"https://thumbs.dreamstime.com/z/portfolio-management-businessman-hologram-concept-futuristic-portfolio-management-businessman-hologram-concept-177205308.jpg"
+            description: `It is home appliances application like urban company. Using React,Css,Bootstrap,Materila UI and MockApi. Full responsive website`,
+            img:"./imgs/project1.png",
+            link:"https://nearworker.netlify.app/",
+        },
+        {
+            name: 'Near Worker',
+            description: `Home appliances application using only HTML, Css , Bootstrap without any functionality to pratice design purpose after to create react application.`,
+            img:"./imgs/project2.png",
+            link:"https://nearworker-demo.netlify.app/"
         },
        
     ]
@@ -20,7 +26,7 @@ function Pro() {
         <div className='container '>
             <h6 className='skillhead '>MY WORK</h6>
             <h3 id='hey1' className='mt-3'>CHECK OUT MY REACT <br/>PROJECT</h3>
-            <div className='row d-flex justify-content-center'>
+            <div className='row align-item-center justify-content-center'>
                 {
                     data.map((e,i)=>{
                         return <Projects key={i} data={e}  />
