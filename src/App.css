@@ -450,7 +450,16 @@
 }
 
 .navi {
-    font-size: 14Px;
+    font-size: 14px;
+    padding-bottom: 8px;
+}
+
+.navbar-collapse .nav-item{
+    padding-bottom: 6px;
+}
+
+.navi .bar{
+    padding-bottom: 0;
 }
 
 @media screen and (max-width:992px){

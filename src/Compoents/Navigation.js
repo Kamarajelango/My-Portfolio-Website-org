@@ -23,7 +23,7 @@ function Navigation() {
         <Navbar.Brand className="h1 fw-bold" href="#home">𝕂𝔼</Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
-          <Nav className="ms-auto d-flex align-items-center">
+          <Nav className="ms-auto d-flex align-items-center justify-content-center">
         <Link to='homeroute' className='text-decoration-none navi '><Nav.Link href="#home" className='bar text-center '>HOME</Nav.Link></Link>    
         <Link to='aboutroute' className='text-decoration-none navi '><Nav.Link href="#about" className='bar text-center '>ABOUT</Nav.Link></Link>  
         <Link to='skillsroute' className='text-decoration-none navi '><Nav.Link href="#skills" className='bar text-center '>SKILLS</Nav.Link></Link> 
@@ -32,11 +32,11 @@ function Navigation() {
 
         <li  className="nav-item text-center" onClick={() => setShow(!show)}>
             {show ? (
-                      <button className="btn border-0" onClick={changeTheme}>
+                      <button className="btn border-0 pb-0" onClick={changeTheme}>
                       <i className="fa-solid fa-sun text-warning"></i>
                       </button>
                     ) : (
-                      <button className='btn border-0' onClick={changeTheme}>
+                      <button className='btn border-0 pb-0' onClick={changeTheme}>
                          <i className="fa-solid fa-moon text-dark"></i>                        
                       </button>
                     )}
