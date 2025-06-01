@@ -67,6 +67,7 @@ function About() {
                                 <p>Experienced in the design, development, testing, and optimization of full stack systems. Proficient in PHP, Laravel, JavaScript, jQuery, AngularJS, React.js, and MySQL, with a growing interest in modern tools like TypeScript and Tailwind CSS. Strong focus on integrating robust backend systems with interactive frontends, delivering clean, scalable code and intuitive user interfaces.</p>
                                 <p>Seeking an opportunity to join a full stack development team to extend my expertise while working with experienced web development teams.</p>
                             </div>
+                            
                             <div className='personal-details-section flex item-center justify-center mb-4' style={{gap: "50px"}}>
                                 <div className='personal-info'>
                                     <table rules="all">
