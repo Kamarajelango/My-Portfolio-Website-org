@@ -33,7 +33,7 @@ function About() {
             id: 1,
             year: "2021 - 2022",
             title: " Freelance Web Developer",
-            place: "Technest India Solution | Chennai, Tamil Nadu",
+            place: "Own Creation",
             description: "I built responsive web applications using React.js, and styled them with Bootstrap and Material UI. I also added login and registration features by connecting with mock APIs."
         },
         {
